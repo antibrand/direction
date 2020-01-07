@@ -120,4 +120,4 @@ class Direction {
 }
 
 // Run the class.
-new Direction;
+$dir_test = new Direction;
