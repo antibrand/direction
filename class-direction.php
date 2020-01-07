@@ -74,7 +74,7 @@ class Direction {
 		$wp_admin_bar->add_menu(
 			[
 				'id'    => 'switch-direction',
-		 		'title' => sprintf( __( 'Switch to %s', 'direction' ), strtoupper( $direction ) ),
+		 		'title' => sprintf( __( 'Switch direction to %s', 'direction' ), strtoupper( $direction ) ),
 		 		'href'  => add_query_arg( [ 'd' => $direction ] )
 			]
 		);
